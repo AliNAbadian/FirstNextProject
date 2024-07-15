@@ -28,74 +28,65 @@ export default function RootLayout({ children }) {
           type="image/icon"
           href="/assets/logo/favicon.png"
         />
-
         <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
-
         <link rel="stylesheet" href="/assets/css/linearicons.css" />
-
         <link rel="stylesheet" href="/assets/css/flaticon.css" />
-
         <link rel="stylesheet" href="/assets/css/animate.css" />
-
         <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
         <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
-
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-
         <link rel="stylesheet" href="/assets/css/bootsnav.css" />
-
         <link rel="stylesheet" href="/assets/css/style.css" />
-
         <link rel="stylesheet" href="/assets/css/responsive.css" />
       </head>
       <body className={inter.className}>
-        <div class="top-area">
-          <div class="header-area">
+        <div className="top-area">
+          <div className="header-area">
             <nav
-              class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
+              className="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
               data-minus-value-desktop="70"
               data-minus-value-mobile="55"
               data-speed="1000"
             >
-              <div class="container">
-                <div class="navbar-header">
+              <div className="container">
+                <div className="navbar-header">
                   <button
                     type="button"
-                    class="navbar-toggle"
+                    className="navbar-toggle"
                     data-toggle="collapse"
                     data-target="#navbar-menu"
                   >
-                    <i class="fa fa-bars"></i>
+                    <i className="fa fa-bars"></i>
                   </button>
-                  <a class="navbar-brand" href="index.html">
+                  <a className="navbar-brand" href="index.html">
                     carvilla<span></span>
                   </a>
                 </div>
                 <div
-                  class="collapse navbar-collapse menu-ui-design"
+                  className="collapse navbar-collapse menu-ui-design"
                   id="navbar-menu"
                 >
                   <ul
-                    class="nav navbar-nav navbar-right"
+                    className="nav navbar-nav navbar-right"
                     data-in="fadeInDown"
                     data-out="fadeOutUp"
                   >
-                    <li class=" scroll active">
+                    <li className=" scroll active">
                       <a href="#home">home</a>
                     </li>
-                    <li class="scroll">
+                    <li className="scroll">
                       <a href="#service">service</a>
                     </li>
-                    <li class="scroll">
+                    <li className="scroll">
                       <a href="#featured-cars">featured cars</a>
                     </li>
-                    <li class="scroll">
+                    <li className="scroll">
                       <a href="#new-cars">new cars</a>
                     </li>
-                    <li class="scroll">
+                    <li className="scroll">
                       <a href="#brand">brands</a>
                     </li>
-                    <li class="scroll">
+                    <li className="scroll">
                       <a href="#contact">contact</a>
                     </li>
                   </ul>
@@ -103,7 +94,7 @@ export default function RootLayout({ children }) {
               </div>
             </nav>
           </div>
-          <div class="clearfix"></div>
+          <div className="clearfix"></div>
         </div>
 
         {children}
